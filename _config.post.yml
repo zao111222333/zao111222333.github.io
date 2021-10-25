@@ -1,0 +1,36 @@
+widgets:
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: Junzhuo Zhou
+        # Author title
+        author_title: SUSTech ICer
+        # Author's current location
+        location: Shenzhen
+        # URL or path to the avatar image
+        avatar: /img/me.png
+        # Whether show the rounded avatar image
+        avatar_rounded: true
+        # Email address for the Gravatar
+        gravatar:
+        # URL or path for the follow button
+        follow_link: 'https://github.com/zao111222333'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/zao111222333'
+            Email:
+                icon: fa fa-envelope
+                url: 'mailto:zhou@junzhuo.me'
+    -
+        type: toc
+        position: left
+        # Whether to show the index of each heading
+        index: true
+        # Whether to collapse sub-headings when they are out-of-view
+        collapsed: true
+        # Maximum level of headings to show (1-6)
+        depth: 6

@@ -1,0 +1,73 @@
+#! /bin/zsh
+hexo clean
+mv source/_posts/About.md source/_posts/About.md.bak
+mv source/_posts/MyCV.md source/_posts/MyCV.md.bak
+hexo g
+mv public public_root
+mv public_root/categories public_root/Categories
+# rm -rf public_root/Archive
+mv source/_posts source/_posts_bak
+# for News
+Bulid_Archive(){
+    Dir=$1
+    mkdir source/_posts
+    cp -r source/_posts_bak/$Dir source/_posts/$Dir
+    hexo g
+    # rm -rf public_root/$Dir
+    mv public/Archive/index.html public_root/$Dir/index.html
+    # Mac
+    sed -i "" "s/Archives -/${Dir} -/g" public_root/$Dir/index.html
+    # Linux
+    # sed -i "s/Archives/${Dir}/g" public_root/$Dir/index.html
+    cp -r public/Archive/* public_root/$Dir/
+    rm -rf public_root/Categories/$Dir/index.html
+    cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
+    cp -r public/Archive/* public_root/Categories/$Dir/
+    rm -rf public
+    rm -rf source/_posts
+}
+Bulid_Categories(){
+    Dir=$1
+    mkdir source/_posts
+    cp -r source/_posts_bak/$Dir source/_posts/$Dir
+    hexo g
+    # rm -rf public_root/$Dir
+    mv public/categories public/Categories
+    mv public/Categories/$Dir/index.html public_root/$Dir/index.html
+    # Mac
+    sed -i "" "s/Category: Blogs/${Dir}/g" public_root/$Dir/index.html
+    # Linux
+    # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
+    cp -r public/Categories/$Dir/* public_root/$Dir/
+    rm -rf public_root/Categories/$Dir/index.html
+    cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
+    cp -r public/Categories/* public_root/Categories/$Dir/
+    rm -rf public
+    rm -rf source/_posts
+}
+Bulid_Archive News
+Bulid_Archive Researches
+Bulid_Archive Projects
+Bulid_Categories Blogs
+
+# HomePage & CV
+mkdir source/_posts
+cp -r source/_posts_bak/About.md.bak source/_posts/About.md
+cp -r source/_posts_bak/MyCV.md.bak source/_posts/MyCV.md
+hexo g
+mv public/About/index.html public_root/index.html
+mv public/MyCV public_root/MyCV
+rm -rf public
+rm -rf source/_posts
+# CV
+sed -i "" "s/<title>/<title>CV - /g" public_root/MyCV/index.html
+sed -i "" "s/is-10/is-12/g" public_root/MyCV/index.html
+mv public_root public
+
+
+mv source/_posts_bak source/_posts
+mv source/_posts/About.md.bak source/_posts/About.md
+mv source/_posts/MyCV.md.bak source/_posts/MyCV.md
+rm -rf public/page
+rm -rf "public/Categories 2"
+node test.js
