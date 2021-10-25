@@ -40,8 +40,8 @@ Bulid_Categories(){
     # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
     cp -r public/Categories/$Dir/* public_root/$Dir/
     rm -rf public_root/Categories/$Dir/index.html
-    cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
     cp -r public/Categories/* public_root/Categories/$Dir/
+    cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
     rm -rf public
     rm -rf source/_posts
 }
