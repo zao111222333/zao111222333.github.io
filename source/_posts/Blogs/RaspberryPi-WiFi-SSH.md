@@ -1,5 +1,5 @@
 ---
-date: 2021-04-7 00:40:12
+date: 2020-04-7 00:40:12
 title: "Raspberry Pi wifi ssh frp"
 mathjax: false
 toc: true

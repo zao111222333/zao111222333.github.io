@@ -70,4 +70,4 @@ mv source/_posts/About.md.bak source/_posts/About.md
 mv source/_posts/MyCV.md.bak source/_posts/MyCV.md
 rm -rf public/page
 rm -rf "public/Categories 2"
-node test.js
+node public.js
