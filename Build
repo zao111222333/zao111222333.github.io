@@ -70,4 +70,13 @@ mv source/_posts/About.md.bak source/_posts/About.md
 mv source/_posts/MyCV.md.bak source/_posts/MyCV.md
 rm -rf public/page
 rm -rf "public/Categories 2"
-node public.js
+
+
+# Timeline
+python3 fetch.py News
+python3 fetch.py Researches
+python3 fetch.py Projects
+python3 fetch.py Archive
+
+node publish.js
+

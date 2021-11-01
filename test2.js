@@ -1,1 +1,0 @@
-var a=document.getElementByID("timeline").html(public/Archive/index.html)

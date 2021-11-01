@@ -8,7 +8,10 @@ date: 2020-10-07 00:40:12
 ***
 ## Educational
 
-### [**南方科技大学**](https://www.sustech.edu.cn/en/) [深圳-南山](https://www.google.com/maps/place/Southern+University+of+Science+and+Technology/@22.5936276,113.9990569,16.99z/data=!4m5!3m4!1s0x3403f2f004433deb:0x78b8602ec96ff57b!8m2!3d22.593969!4d113.99894)
+[**南方科技大学**](https://www.sustech.edu.cn/en/) 
+
+[深圳-南山](https://www.google.com/maps/place/Southern+University+of+Science+and+Technology/@22.5936276,113.9990569,16.99z/data=!4m5!3m4!1s0x3403f2f004433deb:0x78b8602ec96ff57b!8m2!3d22.593969!4d113.99894)
+
 2018-09 to 2022-06
 
 + 微电⼦科学与⼯程 本科 [**深港微电⼦学院**](https://sme.sustech.edu.cn/en/)
@@ -29,64 +32,48 @@ date: 2020-10-07 00:40:12
 ***
 ## Skill
 
-### **相关语⾔** 
+**相关语⾔** 
 `SpinalHDL, Chisel3, Verilog, Shell, Swift, Python, Matlab`
 
-### **软件技能**
+**软件技能**
 `Modelsim, Quartus II, Verilator, Synopsys-DC, Yosys, Vim, VScode, Linux 基本⽂件系统操作`
-***
 
-## Research
+***
+## News
+
+TimelineNews
+
+***
+## Researches
+
+TimelineResearches
 
 + **可重构**/**多精度**加速器设计
 + **Pipeline** & **Systolic** Arrays 加速器设计
 
-| 相关课程 | 成绩/100 |
-| :----- | :----: |
-| ⽚上系统集成电路设计  | 93 |
-| CMOS集成电路设计 | 93 |
-| 微处理器设计  | 96 |
-| ⼯程电磁场理论  | 99 |
-| 数字电路  | 95 |
-| 模拟电路  | 99 |
-| 电路基础  | 99 |
 ***
 ## Publications
 
-| 相关课程 | 成绩/100 |
-| :----- | :----: |
-| ⽚上系统集成电路设计  | 93 |
-| CMOS集成电路设计 | 93 |
-| 微处理器设计  | 96 |
-| ⼯程电磁场理论  | 99 |
-| 数字电路  | 95 |
-| 模拟电路  | 99 |
-| 电路基础  | 99 |
+
 ***
 ## Patents
 
-| 相关课程 | 成绩/100 |
-| :----- | :----: |
-| ⽚上系统集成电路设计  | 93 |
-| CMOS集成电路设计 | 93 |
-| 微处理器设计  | 96 |
-| ⼯程电磁场理论  | 99 |
-| 数字电路  | 95 |
-| 模拟电路  | 99 |
-| 电路基础  | 99 |
+
+
+***
+## Projects
+
+TimelineProjects
+
+
+***
+## Archive
+
+TimelineArchive
+
 ***
 ## Experiences
 
 + 南⽅科技⼤学 **2018 级学⻓团**成员。负责 19 级 15 班的管理及团建活动等。
 
 + 深圳**Forever 漾** 潜⽔俱乐部成员。参加净海⼩分队(OCEAN CLEANING SQUAD)等潜⽔活动
-
-| 相关课程 | 成绩/100 |
-| :----- | :----: |
-| ⽚上系统集成电路设计  | 93 |
-| CMOS集成电路设计 | 93 |
-| 微处理器设计  | 96 |
-| ⼯程电磁场理论  | 99 |
-| 数字电路  | 95 |
-| 模拟电路  | 99 |
-| 电路基础  | 99 |
