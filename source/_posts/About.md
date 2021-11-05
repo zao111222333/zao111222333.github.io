@@ -8,11 +8,15 @@ date: 2020-10-07 00:40:12
 ***
 ## Educational
 
-[**南方科技大学**](https://www.sustech.edu.cn/en/) 
+**山东省实验中学**
+2015-09 to 2018-06
+2018 山东省理科 657/750，TOP 0.2%（2k/700k）
 
-[深圳-南山](https://www.google.com/maps/place/Southern+University+of+Science+and+Technology/@22.5936276,113.9990569,16.99z/data=!4m5!3m4!1s0x3403f2f004433deb:0x78b8602ec96ff57b!8m2!3d22.593969!4d113.99894)
+[**南方科技大学**](https://www.sustech.edu.cn/en/) [深圳-南山](https://www.google.com/maps/place/Southern+University+of+Science+and+Technology/@22.5936276,113.9990569,16.99z/data=!4m5!3m4!1s0x3403f2f004433deb:0x78b8602ec96ff57b!8m2!3d22.593969!4d113.99894)
 
 2018-09 to 2022-06
+
+2022 QS #13 Mainland China
 
 + 微电⼦科学与⼯程 本科 [**深港微电⼦学院**](https://sme.sustech.edu.cn/en/)
 + 课题组导师：[**余浩**](https://scholar.google.com/citations?hl=en&user=X06MaeYAAAAJ)
