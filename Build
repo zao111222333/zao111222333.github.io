@@ -13,6 +13,7 @@ Bulid_Archive(){
     mkdir source/_posts
     cp -r source/_posts_bak/$Dir source/_posts/$Dir
     hexo g
+    mv public/categories public/Categories
     # rm -rf public_root/$Dir
     mv public/Archive/index.html public_root/$Dir/index.html
     # Mac
@@ -20,6 +21,8 @@ Bulid_Archive(){
     # Linux
     # sed -i "s/Archives/${Dir}/g" public_root/$Dir/index.html
     cp -r public/Archive/* public_root/$Dir/
+    rm -rf public_root/Categories/$Dir/
+    cp -r public/Categories/$Dir/ public_root/Categories/$Dir/
     rm -rf public_root/Categories/$Dir/index.html
     cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
     cp -r public/Archive/* public_root/Categories/$Dir/
@@ -39,6 +42,8 @@ Bulid_Categories(){
     # Linux
     # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
     cp -r public/Categories/$Dir/* public_root/$Dir/
+    rm -rf public_root/Categories/$Dir/
+    cp -r public/Categories/$Dir/ public_root/Categories/$Dir/
     rm -rf public_root/Categories/$Dir/index.html
     cp -r public/Categories/* public_root/Categories/$Dir/
     cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
@@ -77,6 +82,7 @@ python3 fetch.py News
 python3 fetch.py Researches
 python3 fetch.py Projects
 python3 fetch.py Archive
+python3 correct-is-active.py
 
+# scp -r -i ~/.ssh/vps-HK ~/Desktop/junzhuo.me/public admin@47.243.126.173:/junzhuo.me/
 node publish.js
-
