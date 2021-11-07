@@ -1,5 +1,5 @@
 ---
-date: 2021-11-10 00:40:12
+date: 2021-11-7 00:40:12
 title: "Bulid Your Online SpinalHDL Development Environment"
 mathjax: false
 toc: true
@@ -9,14 +9,19 @@ thumbnail: ../../images/Blogs/SpinalHDL-Online/pwa-icon-2560.png
 categories: [Blogs, SpinalHDL]
 ---
 ***
+Github: <a href="https://github.com/zao111222333/spinalhdl-online" target="_blank">https://github.com/zao111222333/spinalhdl-online</a>
 
-Github: [https://github.com/zao111222333/spinalhdl-online](https://github.com/zao111222333/spinalhdl-online)
+Dockhub: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target="_blank">https://hub.docker.com/r/zao111222333/spinalhdl-online</a>
 
-Dockhub: [https://hub.docker.com/r/zao111222333/spinalhdl-online](https://hub.docker.com/r/zao111222333/spinalhdl-online).
+## Demo
+<a href="https://spinalhdl-online.junzhuo.me" target="_blank">https://spinalhdl-online.junzhuo.me</a> with `PASSWORD=123456`
 
-## [Demo [click me]](https://spinalhdl-online.junzhuo.me) 
-PASSWORD=123456
-
+Run these two lines in TERMINAL: 
+```shell
+cd /SpinalHDL/SpinalTemplateSbt/
+sbt "runMain mylib.MyTopLevelSim"
+```
+And the output files (RTL, Waveform) will located at `SpinalTemplateSbt/simWorkspace/MyTopLevel`.
 <!-- more -->
 
 ***
@@ -57,11 +62,12 @@ docker run -itd \
   zao111222333/spinalhdl-online
 ```
 ### Use It
-SpinalHDL-Online websit will be accessible on 8848 port of host, access `http://localhost:8848`, `PASSWORD=123456`
+SpinalHDL-Online websit will be accessible on 8848 port of host, access `http://localhost:8848` with `PASSWORD=123456`.
 
-You can also use ssh for further functions (remote control, files transmisson), via `ssh -p 2222 username@localhost`, `PASSWORD=123456`
+You can also use ssh for further functions (remote control, files transmisson), via `ssh -p 2222 username@localhost` with `PASSWORD=123456`.
 
-You can also change `PORT`/`USER`/`PASSWORD`/`etc.`
+You can also change `PORT`/`USER`/`PASSWORD`/`etc`, [see here](#Definitions-of-Configures).
+
 
 ***
 
@@ -96,7 +102,7 @@ Modify the `Highlight-Configures` according to your situation.
 ## dev: Bulid It Youself
 
 ### Clone Source
-***[IMPORTANT] Install [Git-LFS](https://git-lfs.github.com/) to clone large files***
+**[IMPORTANT] Install [Git-LFS](https://git-lfs.github.com/) to clone large files.**
 ```shell
 git lfs clone https://github.com/zao111222333/spinalhdl-online.git
 ```

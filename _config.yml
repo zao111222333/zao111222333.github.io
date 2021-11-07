@@ -14,7 +14,7 @@ pretty_urls:
   trailing_html: true
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: Tags
 archive_dir: Archive
 category_dir: Categories
 code_dir: downloads/code

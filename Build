@@ -74,7 +74,9 @@ mv source/_posts_bak source/_posts
 mv source/_posts/About.md.bak source/_posts/About.md
 mv source/_posts/MyCV.md.bak source/_posts/MyCV.md
 rm -rf public/page
+# mv public/tags
 rm -rf "public/Categories 2"
+rm -rf "public/MyCV 2"
 
 
 # Timeline
