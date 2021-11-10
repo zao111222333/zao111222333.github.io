@@ -14,7 +14,7 @@ Github: <a href="https://github.com/zao111222333/spinalhdl-online" target="_blan
 Dockhub: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target="_blank">https://hub.docker.com/r/zao111222333/spinalhdl-online</a>
 
 ## Demo
-<a href="https://spinalhdl-online.junzhuo.me" target="_blank">https://spinalhdl-online.junzhuo.me</a> with `PASSWORD=123456`
+<a href="https://spinalhdl-online.junzhuo.me" target="_blank">https://spinalhdl-online.junzhuo.me</a> with `PASSWORD=123456`.
 
 Run these two lines in TERMINAL: 
 ```shell
