@@ -39,7 +39,7 @@ Bulid_Categories(){
     # mv public/Categories/$Dir/index.html public_root/$Dir/index.html
     mv public/index.html public_root/$Dir/index.html
     # Mac
-    sed -i "" "s/Category: Blogs/${Dir}/g" public_root/$Dir/index.html
+    sed -i "" "s/\<title\>Junzhuo\<\/title\>/\<title\>${Dir} - Junzhuo\<\/title\>/g" public_root/$Dir/index.html
     # Linux
     # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
     # cp -r public/Categories/$Dir/* public_root/$Dir/
