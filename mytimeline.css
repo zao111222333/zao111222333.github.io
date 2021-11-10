@@ -1,0 +1,22 @@
+.card .media:not(:last-child) {
+  margin-bottom: 0rem;
+}
+
+.content figure:not(:last-child) {
+  margin-bottom: 0em;
+}
+.content figure {
+  margin-left: 0em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.content p:not(:last-child), 
+.content dl:not(:last-child), 
+.content ol:not(:last-child), 
+.content ul:not(:last-child), 
+.content blockquote:not(:last-child), 
+.content pre:not(:last-child), 
+.content table:not(:last-child) {
+  margin-bottom: 0em;
+}

@@ -36,12 +36,14 @@ Bulid_Categories(){
     hexo g
     # rm -rf public_root/$Dir
     mv public/categories public/Categories
-    mv public/Categories/$Dir/index.html public_root/$Dir/index.html
+    # mv public/Categories/$Dir/index.html public_root/$Dir/index.html
+    mv public/index.html public_root/$Dir/index.html
     # Mac
     sed -i "" "s/Category: Blogs/${Dir}/g" public_root/$Dir/index.html
     # Linux
     # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
-    cp -r public/Categories/$Dir/* public_root/$Dir/
+    # cp -r public/Categories/$Dir/* public_root/$Dir/
+    cp -r public/$Dir/* public_root/$Dir/
     rm -rf public_root/Categories/$Dir/
     cp -r public/Categories/$Dir/ public_root/Categories/$Dir/
     rm -rf public_root/Categories/$Dir/index.html
@@ -86,5 +88,6 @@ python3 fetch.py Projects
 python3 fetch.py Archive
 python3 correct-is-active.py
 
+# cat mytimeline.css >> public/css/default.css
 # scp -r -i ~/.ssh/vps-HK ~/Desktop/junzhuo.me/public admin@47.243.126.173:/junzhuo.me/
 node publish.js
