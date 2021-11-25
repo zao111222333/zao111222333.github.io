@@ -45,11 +45,7 @@ And the output files (RTL, Waveform) will located at `SpinalTemplateSbt/simWorks
 
 
 ## Usage
-### Pull Imgae
-```shell
-docker pull zao111222333/spinalhdl-online
-```
-### Run Container
+### Pull Imgae & Run Container
 ```shell
 docker run -itd \
   --restart=always \

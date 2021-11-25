@@ -55,6 +55,7 @@ Bulid_Categories(){
 Bulid_Archive News
 Bulid_Archive Researches
 Bulid_Archive Projects
+Bulid_Archive Publications
 Bulid_Categories Blogs
 
 # HomePage & CV
@@ -85,7 +86,7 @@ rm -rf "public/MyCV 2"
 python3 fetch.py News
 python3 fetch.py Researches
 python3 fetch.py Projects
-python3 fetch.py Archive
+python3 fetch.py Publications
 python3 correct-is-active.py
 
 # cat mytimeline.css >> public/css/default.css

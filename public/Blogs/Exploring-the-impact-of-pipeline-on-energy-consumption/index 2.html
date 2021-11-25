@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Blog: Exploring the impact of pipeline on energy consumption - Junzhuo</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Junzhuo"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Junzhuo"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Summary        This article is also available in      简体中文."><meta property="og:type" content="blog"><meta property="og:title" content="Blog: Exploring the impact of pipeline on energy consumption"><meta property="og:url" content="https://junzhuo.me/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/"><meta property="og:site_name" content="Junzhuo"><meta property="og:description" content="Summary        This article is also available in      简体中文."><meta property="og:locale" content="en_US"><meta property="og:image" content="https://junzhuo.me/images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg"><meta property="article:published_time" content="2021-04-13T16:40:12.000Z"><meta property="article:modified_time" content="2021-11-25T17:00:18.619Z"><meta property="article:author" content="Junzhuo Zhou"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://junzhuo.me/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/"},"headline":"Blog: Exploring the impact of pipeline on energy consumption","image":[],"datePublished":"2021-04-13T16:40:12.000Z","dateModified":"2021-11-25T17:00:18.619Z","author":{"@type":"Person","name":"Junzhuo Zhou"},"description":"Summary        This article is also available in      简体中文."}</script><link rel="canonical" href="https://junzhuo.me/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="Junzhuo" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/News">News</a><a class="navbar-item" href="/Publications">Publications</a><a class="navbar-item" href="/Researches">Researches</a><a class="navbar-item" href="/Projects">Projects</a><a class="navbar-item" href="/Blogs">Blogs</a><a class="navbar-item" href="/Archive">Archive</a></div><div class="navbar-end"><a class="navbar-item" rel="noopener" title="MyCV" href="/MyCV">MyCV</a><a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-9-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="/../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg" alt="Blog: Exploring the impact of pipeline on energy consumption"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"></div></div><h1 class="title is-3 is-size-4-mobile">Blog: Exploring the impact of pipeline on energy consumption</h1><div class="content"><h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><article class="message message-immersive is-primary">
+  <div class="message-body">
+    <i class="fas fa-globe-asia mr-2"></i>This article is also available in 
+    <a href="/cn/随笔/探究pipeline对于模块能耗的影响/">简体中文</a>.
+  </div>
+</article>
+
+<span id="more"></span>
+
+<hr>
+<h2 id="Analysis-Single-Module"><a href="#Analysis-Single-Module" class="headerlink" title="Analysis: Single Module"></a>Analysis: Single Module</h2><hr>
+<h3 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h3><p>引入k级pipeline以后(使用k-1个Reg.):<br><img src="../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg"></p>
+<h3 id="Some-Symbol"><a href="#Some-Symbol" class="headerlink" title="Some Symbol"></a>Some Symbol</h3><table>
+<thead>
+<tr>
+<th align="left">Symbol</th>
+<th align="left">Description</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">$P_{M,Static}$</td>
+<td align="left">M的静态功率</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">$W_{M,Dynamic}$</td>
+<td align="left">M的动态功耗</td>
+<td align="left">完成一次运算消耗的能量，暂不考虑随着频率变化而改变</td>
+</tr>
+<tr>
+<td align="left">$T_{M}$</td>
+<td align="left">M的时延</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">$P_{R,Static}$</td>
+<td align="left">Reg.的静态功率</td>
+<td align="left">引入一级Pipeline所需的Reg</td>
+</tr>
+<tr>
+<td align="left">$W_{R,Dynamic}$</td>
+<td align="left">Reg.的动态功耗</td>
+<td align="left">完成一次运算消耗的能量，暂不考虑随着频率变化而改变</td>
+</tr>
+<tr>
+<td align="left">$T_{R}$</td>
+<td align="left">Reg.的时延</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">$PPW$</td>
+<td align="left">能耗比(Performance Per Watt)</td>
+<td align="left">完成一次运算所需能量</td>
+</tr>
+</tbody></table>
+<br>
+
+<hr>
+<h3 id="时延"><a href="#时延" class="headerlink" title="时延"></a>时延</h3><p>$<br>T_{k} = \frac{T_{M}}{k} +T_{R}<br>$</p>
+<hr>
+<h3 id="静态功率"><a href="#静态功率" class="headerlink" title="静态功率"></a>静态功率</h3><div class="formula">
+$
+\begin{aligned}
+P_{k,Static} & = (k-1) \cdot P_{R,Static} + P_{M1,Static} + P_{M2,Static} +... + P_{Mk,Static}  \\\\
+ & = (k-1) \cdot P_{R,Static} + P_{M,Static}
+\end{aligned}
+$</div>
+
+<hr>
+<h3 id="动态功率"><a href="#动态功率" class="headerlink" title="动态功率"></a>动态功率</h3><div class="formula">
+$
+\begin{aligned}
+W_{k,Dynamic} & = (k-1) \cdot W_{R,Dynamic} + W_{M1,Dynamic} + W_{M2,Dynamic} +... + W_{Mk,Dynamic}  \\\\
+ & = (k-1) \cdot W_{R,Dynamic} + W_{M,Dynamic}
+\end{aligned}
+$</div>
+
+
+<hr>
+<h3 id="能耗比"><a href="#能耗比" class="headerlink" title="能耗比"></a>能耗比</h3><div class="formula">
+$
+\begin{aligned}
+PPW &= \frac{1}{P_{k,Static} \cdot T_{k} + W_{k,Dynamic} } \\\\
+ & = \frac{1}{[(k-1) \cdot P_{R,Static} + P_{M,Static}]\cdot(\frac{T_{M}}{k} +T_{R})+ (k-1) \cdot W_{R,Dynamic} + W_{M,Dynamic}} \\\\
+ & = \frac{1}{k \cdot (P_{R,Static}T_{R}+W_{R,Dynamic}) + \frac{1}{k} \cdot (P_{M,Static}T_{M}-P_{R,Static}T_{M}) - P_{R,Static}T_{R} +P_{R,Static}T_{M} +P_{M,Static}T_{R} - W_{R,Dynamic} + W_{M,Dynamic}} \\\\
+ & \le \frac{1}{ 2\sqrt{(P_{R,Static}T_{R}+W_{R,Dynamic}) \cdot (P_{M,Static}T_{M}-P_{R,Static}T_{M})} - P_{R,Static}T_{R} +P_{R,Static}T_{M} +P_{M,Static}T_{R} - W_{R,Dynamic} + W_{M,Dynamic}} \\\\
+ & when \ and \ only \ when \ \ k= \sqrt{\frac{P_{M,Static}T_{M}-P_{R,Static}T_{M}}{P_{R,Static}T_{R}+W_{R,Dynamic}}} , \ we \ have \ PPW_{max}
+\end{aligned}
+$</div>
+
+<hr>
+<h2 id="Analysis-Multi-States-Module"><a href="#Analysis-Multi-States-Module" class="headerlink" title="Analysis: Multi-States Module"></a>Analysis: Multi-States Module</h2><p><img src="../../images/Projects/Muti-Pipeline-Design-of-Systolic-Array/Systolic-Array.svg"></p>
+<h3 id="Some-Symbol-1"><a href="#Some-Symbol-1" class="headerlink" title="Some Symbol"></a>Some Symbol</h3><table>
+<thead>
+<tr>
+<th align="left">Symbol</th>
+<th align="left">Description</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">$P_{C_{mn},Static}$</td>
+<td align="left">$C_{mn}$的静态功率</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">$W_{C_{mn},Dynamic}$</td>
+<td align="left">$C_{mn}$的动态功耗</td>
+<td align="left">单个Cell完成一次运算消耗的能量，暂不考虑随着频率变化而改变</td>
+</tr>
+<tr>
+<td align="left">$T_{C_{mn}}$</td>
+<td align="left">$C_{mn}$的时延</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">$P_{R,Static}$</td>
+<td align="left">Reg.的静态功率</td>
+<td align="left">引入一级Pipeline所需的Reg</td>
+</tr>
+<tr>
+<td align="left">$W_{R,Dynamic}$</td>
+<td align="left">Reg.的动态功耗</td>
+<td align="left">完成一次运算消耗的能量，暂不考虑随着频率变化而改变</td>
+</tr>
+<tr>
+<td align="left">$T_{R}$</td>
+<td align="left">Reg.的时延</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">$PPW$</td>
+<td align="left">整个模块的能耗比(Performance Per Watt)</td>
+<td align="left">整个模块的完成一次运算所需能量</td>
+</tr>
+</tbody></table>
+<h3 id="时延-1"><a href="#时延-1" class="headerlink" title="时延"></a>时延</h3><p>整个网络共享最大时延<br>$<br>T_{k} = \frac{T_{M}}{k} +T_{R}<br>$</p>
+<hr>
+<h3 id="静态功率-1"><a href="#静态功率-1" class="headerlink" title="静态功率"></a>静态功率</h3><div class="formula">
+$
+\begin{aligned}
+P_{k,Static} & = (k-1) \cdot P_{R,Static} + P_{M1,Static} + P_{M2,Static} +... + P_{Mk,Static}  \\\\
+ & = (k-1) \cdot P_{R,Static} + P_{M,Static}
+\end{aligned}
+$</div>
+
+<hr>
+<h3 id="动态功率-1"><a href="#动态功率-1" class="headerlink" title="动态功率"></a>动态功率</h3><div class="formula">
+$
+\begin{aligned}
+W_{k,Dynamic} & = (k-1) \cdot W_{R,Dynamic} + W_{M1,Dynamic} + W_{M2,Dynamic} +... + W_{Mk,Dynamic}  \\\\
+ & = (k-1) \cdot W_{R,Dynamic} + W_{M,Dynamic}
+\end{aligned}
+$</div>
+
+
+<hr>
+<h3 id="能耗比-1"><a href="#能耗比-1" class="headerlink" title="能耗比"></a>能耗比</h3><p>$<br>\begin{aligned}<br>PPW &amp;= \frac{1}{\sum_{m=1}^{M} \sum_{n=1}^{N} (P_{m,n,k,Static} \cdot T_{m,n,k} + W_{m,n,k,Dynamic}) }<br>\end{aligned}<br>$</p>
+<hr>
+<h2 id="Outcome"><a href="#Outcome" class="headerlink" title="Outcome"></a>Outcome</h2><p>To be continue..</p>
+</div><div class="sharethis-inline-share-buttons"></div><script src=" " defer></script></article></div><!--!--><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><div class="level-item has-text-centered flex-shrink-1"><div><p class="title is-size-4 is-block" style="line-height:inherit;">Junzhuo Zhou</p><p class="is-size-6 is-block">SUSTech ICer</p></div></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/zao111222333"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:zhou@junzhuo.me"><i class="fa fa-envelope"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Catalogue</h3><ul class="menu-list"><li><a class="level is-mobile" href="#Summary"><span class="level-left"><span class="level-item">1</span><span class="level-item">Summary</span></span></a></li><li><a class="level is-mobile" href="#Analysis-Single-Module"><span class="level-left"><span class="level-item">2</span><span class="level-item">Analysis: Single Module</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#Background"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">Background</span></span></a></li><li><a class="level is-mobile" href="#Some-Symbol"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">Some Symbol</span></span></a></li><li><a class="level is-mobile" href="#时延"><span class="level-left"><span class="level-item">2.3</span><span class="level-item">时延</span></span></a></li><li><a class="level is-mobile" href="#静态功率"><span class="level-left"><span class="level-item">2.4</span><span class="level-item">静态功率</span></span></a></li><li><a class="level is-mobile" href="#动态功率"><span class="level-left"><span class="level-item">2.5</span><span class="level-item">动态功率</span></span></a></li><li><a class="level is-mobile" href="#能耗比"><span class="level-left"><span class="level-item">2.6</span><span class="level-item">能耗比</span></span></a></li></ul></li><li><a class="level is-mobile" href="#Analysis-Multi-States-Module"><span class="level-left"><span class="level-item">3</span><span class="level-item">Analysis: Multi-States Module</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#Some-Symbol-1"><span class="level-left"><span class="level-item">3.1</span><span class="level-item">Some Symbol</span></span></a></li><li><a class="level is-mobile" href="#时延-1"><span class="level-left"><span class="level-item">3.2</span><span class="level-item">时延</span></span></a></li><li><a class="level is-mobile" href="#静态功率-1"><span class="level-left"><span class="level-item">3.3</span><span class="level-item">静态功率</span></span></a></li><li><a class="level is-mobile" href="#动态功率-1"><span class="level-left"><span class="level-item">3.4</span><span class="level-item">动态功率</span></span></a></li><li><a class="level is-mobile" href="#能耗比-1"><span class="level-left"><span class="level-item">3.5</span><span class="level-item">能耗比</span></span></a></li></ul></li><li><a class="level is-mobile" href="#Outcome"><span class="level-left"><span class="level-item">4</span><span class="level-item">Outcome</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div></div><!--!--></div></div></section><footer class="footer"></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"About Me","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
