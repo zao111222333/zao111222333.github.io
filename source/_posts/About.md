@@ -20,7 +20,7 @@ date: 2020-10-07 00:40:12
 
 + 微电⼦科学与⼯程 本科 [**深港微电⼦学院**](https://sme.sustech.edu.cn/en/)
 + 课题组导师：[**余浩**](https://scholar.google.com/citations?hl=en&user=X06MaeYAAAAJ)
-+ GPA：**3.70**/4.00 #总评
++ GPA：**3.67**/4.00 #总评
 + GPA：**3.92**/4.00 #专业基础课
 
 | 相关课程 | 成绩/100 |
@@ -34,13 +34,13 @@ date: 2020-10-07 00:40:12
 | 电路基础  | 99 |
 
 ***
-## Skill
+## Skills
 
-**相关语⾔** 
-`SpinalHDL, Chisel3, Verilog, Shell, Swift, Python, Matlab`
+**Languages** 
+`Verilog, Chisel, SpinalHDL, Python, C, MATLAB, Scala, Java, Shell, LabView`
 
-**软件技能**
-`Modelsim, Quartus II, Verilator, Synopsys-DC, Yosys, Vim, VScode, Linux 基本⽂件系统操作`
+**Softwares**
+`DesignComplier, PrimeTime, VCS, MemoryComlier, Virtuoso, Quartus, ModelSim, Vivado, Docker`
 
 ***
 ## News
