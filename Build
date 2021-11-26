@@ -80,7 +80,7 @@ rm -rf public/page
 # mv public/tags
 rm -rf "public/Categories 2"
 rm -rf "public/MyCV 2"
-
+rm -rf "public/Achive"
 
 # Timeline
 python3 fetch.py News
