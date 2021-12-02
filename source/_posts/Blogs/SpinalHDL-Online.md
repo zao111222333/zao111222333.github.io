@@ -15,14 +15,14 @@ Dockhub: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target
 
 ## Demo
 <a href="https://spinalhdl-online.junzhuo.me" target="_blank">https://spinalhdl-online.junzhuo.me</a> with `PASSWORD=123456`.
-
+<!-- more -->
 Run these two lines in TERMINAL: 
 ```shell
 cd /SpinalHDL/SpinalTemplateSbt/
 sbt "runMain mylib.MyTopLevelSim"
 ```
 And the output files (RTL, Waveform) will located at `SpinalTemplateSbt/simWorkspace/MyTopLevel`.
-<!-- more -->
+
 
 ***
 
@@ -98,7 +98,12 @@ Modify the `Highlight-Configures` according to your situation.
 ## dev: Bulid It Youself
 
 ### Clone Source
-**[IMPORTANT] Install [Git-LFS](https://git-lfs.github.com/) to clone large files.**
+
+### Download `.zip` file from my website
+[https://junzhuo.me/download/SpinalHDL-Online.zip](https://junzhuo.me/download/SpinalHDL-Online.zip)
+
+### ~~Clone Source~~
+~~**[IMPORTANT] Install [Git-LFS](https://git-lfs.github.com/) to clone large files.**~~
 ```shell
 git lfs clone https://github.com/zao111222333/spinalhdl-online.git
 ```
@@ -125,3 +130,5 @@ docker run -itd \
   -v ~/SpinalHDL-Share/:/SpinalHDL/ \
   spinalhdl-online
 ```
+
+
