@@ -1,12 +1,30 @@
 ---
 title: 
 # thumbnail: ../../images/About/avatar.png
+cover: ../../images/About/avatar.png
 top: true
 toc: true
 date: 2020-10-07 00:40:12
 ---
+<style>
+div.biography a:link {
+  color: black;
+  text-decoration: underline;
+}
+</style>
+<div class="biography">
+<p style="width:600px;display:block;text-align:justify;margin:0 auto;">
+Welcome! This is <b>Junzhuo</b>, currently a senior student in <a href="https://haoyulab.sme.sustech.edu.cn/">HaoYu lab</a> at <a href="https://www.sustech.edu.cn/en/">SUSTech</a>. My research area is the <i>High Performance Computing (HPC) Architecture</i>, <i>Configurable Computation</i> and <i>Parametric IC design</i>, here is my <a href="./MyCV">CV</a>.
+</p>
+<center>
+    <a href="mailto:zhou@junzhuo.me">Email</a> &nbsp/&nbsp
+    <a href="https://scholar.google.com/citations?hl=en&user=Rae-5RYAAAAJ">Google Scholar</a> &nbsp/&nbsp
+    <a href="https://github.com/zao111222333"> Github </a>
+</center>
+</div>
+
 ***
-## Educational
+# Educational
 
 **山东省实验中学**
 2015-09 to 2018-06
@@ -23,7 +41,7 @@ date: 2020-10-07 00:40:12
 + GPA：**3.67**/4.00 #总评
 + GPA：**3.92**/4.00 #专业基础课
 
-| 相关课程 | 成绩/100 |
+<!-- | 相关课程 | 成绩/100 |
 | :----- | :----: |
 | ⽚上系统集成电路设计  | 93 |
 | CMOS集成电路设计 | 93 |
@@ -31,10 +49,45 @@ date: 2020-10-07 00:40:12
 | ⼯程电磁场理论  | 99 |
 | 数字电路  | 95 |
 | 模拟电路  | 99 |
-| 电路基础  | 99 |
+| 电路基础  | 99 | -->
 
 ***
-## Skills
+# News
+
+TimelineNews
+
+***
+# Researches
+
++ **可重构**/**多精度**加速器设计
++ **Pipeline** & **Systolic** Arrays 加速器设计
+
+***
+# Publications
+
+TimelinePublications
+
+***
+# Patents
+
++ A Fixed-Point Multiply-Accumulate Unit and its Methodology for Multi-Precision Neural Networks Computation, CN202110178992.7:
+Xianglong Wang, Yuhang Wang, **Junzhuo Zhou**, Gang Shi, Kai Li, Wei Mao, Fengwei An, Hao Yu
+
++ A Computing-In-Memory Architecture Systolic Array for Multi-Precision Neural Networks Computation, CN202110988635.7:
+Dingbang Liu, Haoxiang Zhou, Yuliang Han, **Junzhuo Zhou**, Gengbin Huang, Changhai Man, Ao Shen, Wei Mao, Hao Yu
+
+<!-- ***
+# Projects
+
+TimelineProjects -->
+
+
+<!-- ***
+## Archive
+
+TimelineArchive -->
+***
+# Skills
 
 **Languages** 
 `Verilog, Chisel, SpinalHDL, Python, C, MATLAB, Scala, Java, Shell, LabView`
@@ -42,47 +95,10 @@ date: 2020-10-07 00:40:12
 **Softwares**
 `DesignComplier, PrimeTime, VCS, MemoryComlier, Virtuoso, Quartus, ModelSim, Vivado, Docker`
 
-***
-## News
 
-TimelineNews
 
 ***
-## Researches
-
-TimelineResearches
-
-+ **可重构**/**多精度**加速器设计
-+ **Pipeline** & **Systolic** Arrays 加速器设计
-
-***
-## Publications
-
-TimelinePublications
-
-***
-## Patents
-
-+ A Fixed-Point Multiply-Accumulate Unit and its Methodology for Multi-Precision Neural Networks Computation, CN202110178992.7:
-+ Xianglong Wang, Yuhang Wang, **Junzhuo Zhou**, Gang Shi, Kai Li, Wei Mao, Fengwei An, Hao Yu
-
-+ A Computing-In-Memory Architecture Systolic Array for Multi-Precision Neural Networks Computation, CN202110988635.7:
-
-+ Dingbang Liu, Haoxiang Zhou, Yuliang Han, **Junzhuo Zhou**, Gengbin Huang, Changhai Man, Ao Shen, Wei Mao, Hao Yu
-
-***
-## Projects
-
-TimelineProjects
-
-
-<!-- ***
-## Archive
-
-TimelineArchive -->
-
-***
-## Experiences
+# Experiences
 
 + 南⽅科技⼤学 **2018 级学⻓团**成员。负责 19 级 15 班的管理及团建活动等。
 

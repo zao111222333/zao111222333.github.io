@@ -1,6 +1,6 @@
 ---
-date: 2021-04-14 00:40:12
-title: "Blog: Exploring the impact of pipeline on energy consumption"
+date: 2021-09-14 00:40:12
+title: "Exploring the impact of pipeline on energy consumption"
 cover: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
 thumbnail: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
 mathjax: true

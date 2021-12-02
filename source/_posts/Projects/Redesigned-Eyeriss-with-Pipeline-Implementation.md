@@ -1,5 +1,5 @@
 ---
-title: "Project: Redesigned Eyeriss with Pipeline Implementation"
+title: "Redesigned Eyeriss with Pipeline Implementation"
 cover: ../../images/Projects/Redesigned-Eyeriss-with-Pipeline-Implementation/PEPipeline.svg
 thumbnail: ../../images/Projects/Redesigned-Eyeriss-with-Pipeline-Implementation/PE2.svg
 toc: true

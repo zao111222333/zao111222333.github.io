@@ -1,5 +1,5 @@
 ---
-title: "Project: A Parallel Optimization Design for Demosaicing"
+title: "A Parallel Optimization Design for Demosaicing"
 cover: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/half-flow.svg
 thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true

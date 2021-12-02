@@ -14,22 +14,21 @@ YouTube: <a href="https://github.com/zao111222333/spinalhdl-online" target="_bla
 Bilibili: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target="_blank">TO-DO</a>
 
 <!-- more -->
-
-WARNING: All videos in this page ***HAVE SOUND!***
-### View
-<video src='../../images/Blogs/Photolithography/View.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
+## View
+<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/View.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
 
-### 光刻胶
-<video src='../../images/Blogs/Photolithography/Photolithography_0.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
+## 光刻胶
+<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/Photolithography_0.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
-### 光刻1
-<video src='../../images/Blogs/Photolithography/Photolithography_1.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
+## 光刻
+### 1
+<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/Photolithography_1.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
-### 光刻2
-<video src='../../images/Blogs/Photolithography/Photolithography_2.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
+### 2
+<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/Photolithography_2.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
