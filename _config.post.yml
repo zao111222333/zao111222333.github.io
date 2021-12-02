@@ -6,9 +6,9 @@ widgets:
         # Author name
         author: Junzhuo Zhou
         # Author title
-        author_title: SUSTech ICer
+        author_title: HaoYu lab, SUSTech
         # Author's current location
-        location: Shenzhen
+        location: 
         # URL or path to the avatar image
         avatar: /img/me.png
         # Whether show the rounded avatar image
@@ -19,12 +19,16 @@ widgets:
         follow_link: 'https://github.com/zao111222333'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/zao111222333'
             Email:
                 icon: fa fa-envelope
                 url: 'mailto:zhou@junzhuo.me'
+            Google-Scholar:
+                icon: fa fa-graduation-cap
+                url: 'https://scholar.google.com/citations?hl=en&user=Rae-5RYAAAAJ'
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/zao111222333'
+            
     -
         type: toc
         position: left
