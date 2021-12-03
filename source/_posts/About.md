@@ -11,6 +11,18 @@ div.biography a:link {
   color: black;
   text-decoration: underline;
 }
+.timeline {
+    margin-left: 1rem;
+    padding: 0rem 0 0 1.5rem;
+    border-left: 1px solid #dbdbdb;
+}
+.card .media:not(:last-child) {
+    margin-bottom: 0em;
+}
+
+.content p:not(:last-child){
+    margin-bottom: 0em;
+}
 </style>
 <div class="biography">
 <p style="width:100%;display:block;text-align:justify;margin:0 auto;max-width:600px;">

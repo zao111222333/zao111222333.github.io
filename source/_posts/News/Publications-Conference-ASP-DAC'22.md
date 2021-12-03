@@ -8,9 +8,4 @@ tags: [fpga,accelerator]
 categories: [News,Publications,Conference]
 isNews: true
 ---
-***
-## Summary
-
-To be published
-
-[see here](../../Publications/Conference-ASP-DAC'22).
+<meta http-equiv="refresh" content="0;url= ../../Publications/Conference-ASP-DAC'22">
