@@ -13,7 +13,7 @@ div.biography a:link {
 }
 </style>
 <div class="biography">
-<p style="width:600px;display:block;text-align:justify;margin:0 auto;">
+<p style="width:100%;display:block;text-align:justify;margin:0 auto;max-width:600px;">
 Welcome! This is <b>Junzhuo</b>, currently a senior student in <a href="https://haoyulab.sme.sustech.edu.cn/">HaoYu lab</a> at <a href="https://www.sustech.edu.cn/en/">SUSTech</a>. My research area is the <i>High Performance Computing (HPC) Architecture</i>, <i>Configurable Computation</i> and <i>Parametric IC design</i>, here is my <a href="./MyCV">CV</a>.
 </p>
 <center>

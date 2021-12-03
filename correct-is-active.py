@@ -48,7 +48,7 @@ def correct_all_files(type):
 
 
 correct_all_files("News")
-correct_all_files("Researches")
+# correct_all_files("Researches")
 correct_all_files("Projects")
 correct_all_files("Blogs")
 correct_all_files("Publications")
