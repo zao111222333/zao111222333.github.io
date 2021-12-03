@@ -38,6 +38,7 @@ Bulid_Categories(){
     mv public/categories public/Categories
     # mv public/Categories/$Dir/index.html public_root/$Dir/index.html
     mv public/index.html public_root/$Dir/index.html
+    mv public/page public_root/$Dir/page
     # Mac
     sed -i "" "s/\<title\>Junzhuo\<\/title\>/\<title\>${Dir} - Junzhuo\<\/title\>/g" public_root/$Dir/index.html
     # Linux
@@ -76,11 +77,10 @@ mv public_root public
 mv source/_posts_bak source/_posts
 mv source/_posts/About.md.bak source/_posts/About.md
 mv source/_posts/MyCV.md.bak source/_posts/MyCV.md
-rm -rf public/page
+# rm -rf public/page
 # mv public/tags
-rm -rf "public/Categories 2"
-rm -rf "public/MyCV 2"
 rm -rf "public/Achive"
+rm -rf $(find public/ -name '*\ *')
 
 # Timeline
 python3 fetch.py News
