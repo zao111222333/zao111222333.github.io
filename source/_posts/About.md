@@ -11,6 +11,9 @@ div.biography a:link {
   color: black;
   text-decoration: underline;
 }
+div.biography a:visited {
+  color: black;
+}
 .timeline {
     margin-left: 1rem;
     padding: 0rem 0 0 1.5rem;

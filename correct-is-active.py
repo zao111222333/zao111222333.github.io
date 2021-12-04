@@ -45,6 +45,8 @@ def correct_all_files(type):
     for file in file_list:
         if os.path.splitext(file)[-1]=='.html':
             correct_file(file,type)
+    
+
 
 
 correct_all_files("News")
