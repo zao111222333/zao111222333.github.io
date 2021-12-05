@@ -9,10 +9,11 @@ for card_content in all_card_content:
     soup_card_content = BeautifulSoup(str(card_content),'lxml')
     has_time_line = str(soup_card_content.find(name='div',attrs={"class":"timeline"}))!='None'
     if (has_time_line):
-        all_time_line += str(card_content.prettify())
+        all_time_line += str(card_content)
 
 all_time_line = all_time_line.replace("h3 class=\"tag is-primary\"", "h3 class=\"\"")
 all_time_line = all_time_line.replace("<a href=\"./", "<a href=\"./"+str(sys.argv[1])+"/")
+# all_time_line = all_time_line.replace(" </h>", "</h>")
 
 
 # all_time_line = all_time_line.replace("card-content", "")

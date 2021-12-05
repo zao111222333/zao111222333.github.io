@@ -6,6 +6,9 @@ title: "An Energy-Efﬁcient Bit-Split-and-Combination Systolic Accelerator for 
 toc: true
 tags: [fpga,accelerator]
 categories: [Publications,Conference,DATE,'22']
+authors: [L. Dai, Q. Cheng, Y. Wang, G. Huang, J. Zhou, K. Li, W. Mao, H. Yu]
+whoami: J. Zhou
+
 isNews: true
 ---
 ***

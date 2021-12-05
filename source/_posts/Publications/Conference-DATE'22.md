@@ -6,6 +6,8 @@ title: "A Precision-Scalable Energy-Efficient Bit-Split-and-Combination Vector S
 toc: true
 tags: [fpga,accelerator]
 categories: [Publications,Conference,ASP-DAC,'22']
+authors: [K. Li,J. Zhou,Y. Wang,J. Luo,Z. Yang,S. Yang,W. Mao,M. Huang,H. Yu]
+whoami: J. Zhou
 isNews: true
 ---
 ***

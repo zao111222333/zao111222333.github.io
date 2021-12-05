@@ -32,6 +32,8 @@ module.exports = class extends Component {
                                 date={date(post.date)}
                                 dateXml={date_xml(post.date)}
                                 categories={categories}
+                                authors={post.authors}
+                                whoami={post.whoami}
                                 thumbnail={post.thumbnail ? url_for(post.thumbnail) : null} />;
                         })}
                     </div>
