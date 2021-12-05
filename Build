@@ -85,8 +85,7 @@ mv source/_posts/About.md.bak source/_posts/About.md
 mv source/_posts/MyCV.md.bak source/_posts/MyCV.md
 # rm -rf public/page
 # mv public/tags
-rm -rf "public/Achive"
-rm -rf $(find public/ -name '*\ *')
+rm -rf public/Archive
 for file in $(find public/ -name '*\ *') then;
 do 
 rm -rf $file" "*

@@ -4,8 +4,6 @@ title: "conference/ICTA’21: An Essay was Accepeted"
 # head_: "
 # cover: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/half-flow.svg
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
-toc: true
-tags: [rram,eda]
 categories: [News,Publications,Conference]
 isNews: true
 ---

@@ -12,6 +12,7 @@ categories: [Publications,Conference,ICTA'21]
 isNews: true
 ---
 ***
-## Summary
+### Abstract
+In this work we propose an effective preconditioning technique to accelerate the steady-state simulation of large-scale memristor crossbar arrays (MCAs). We exploit the structural regularity of MCAs to develop a specially-crafted preconditioner that can be efﬁciently evaluated utilizing tensor products and block matrix inversion. Numerical experiments demonstrate the efﬁcacy of the proposed technique compared to mainstream preconditioners.
 
 [PDF](https://arxiv.org/pdf/2109.07929.pdf)
