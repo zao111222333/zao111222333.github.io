@@ -9,4 +9,4 @@ tags: [rram,eda]
 categories: [News,Publications,Conference]
 isNews: true
 ---
-<meta http-equiv="refresh" content="0;url= ../../Publications/Conference-ICTA’21">"
+<meta http-equiv="refresh" content="0;url= /Publications/Conference-ICTA’21">"

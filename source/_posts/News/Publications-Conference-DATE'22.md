@@ -9,4 +9,4 @@ categories: [News,Publications,Conference]
 isNews: true
 ---
 ***
-<meta http-equiv="refresh" content="0;url= ../../Publications/Conference-DATE'22">"
+<meta http-equiv="refresh" content="0;url= /Publications/Conference-DATE'22">"
