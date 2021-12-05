@@ -7,12 +7,33 @@ toc: true
 date: 2020-10-07 00:40:12
 ---
 <style>
-div.biography a:link {
+.column-main a:link{
   color: black;
   text-decoration: underline;
 }
-div.biography a:visited {
+.column-main a:visited {
   color: black;
+}
+.timeline a:link{
+  color: black;
+  text-decoration: none;
+}
+.timeline a:visited {
+  color: black;
+}
+div.timeline-title a:link{
+  color: black;
+  text-decoration: underline;
+}
+div.timeline-title a:visited {
+  color: black;
+}
+.categories a:link{
+  color: gray;
+  text-decoration: none;
+}
+.categories a:visited {
+  color: gray;
 }
 .timeline {
     margin-left: 1rem;

@@ -15,7 +15,11 @@ module.exports = class extends Component {
 
             return <div class="card">
                 <div class="card-content">
-                    <h3 class="tag is-primary">{month === null ? year : time.locale(language).format('MMMM YYYY')}</h3>
+                    <h3 class="">
+                        <div class="timeline-title">
+                            <a href={month === null ? "./"+year : "./"+time.locale(language).format('MMMM YYYY')}>{month === null ? year : time.locale(language).format('MMMM YYYY')}</a>
+                        </div>
+                    </h3>
                     <div class="timeline">
                         {posts.map(post => {
                             const categories = post.categories.map(category => ({

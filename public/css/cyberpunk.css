@@ -10997,6 +10997,9 @@ footer.footer .level-end .field {
 .footer-logo img {
   max-height: 1.75rem;
 }
+.footer {
+  padding: 3rem 1.5rem 1rem;
+}
 .pagination {
   margin-top: 1.5rem;
 }
@@ -11658,6 +11661,17 @@ figure.highlight .section {
   .section {
     padding: 1.5rem 1rem;
   }
+}
+div.timeline-title a:link {
+  color: #000;
+  text-decoration: underline;
+}
+div.timeline-title a:visited {
+  color: #000;
+  text-decoration: underline;
+}
+.section {
+  padding: 1.5rem 1.5rem;
 }
 body {
   counter-reset: card;
