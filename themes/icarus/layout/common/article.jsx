@@ -4,7 +4,7 @@ const Share = require('./share');
 const Donates = require('./donates');
 const Comment = require('./comment');
 const ArticleLicensing = require('hexo-component-inferno/lib/view/misc/article_licensing');
-
+const ArticleMedia = require('hexo-component-inferno/lib/view/common/post_authors');
 /**
  * Get the word count of text.
  */
@@ -83,6 +83,10 @@ module.exports = class extends Component {
                     {page.title !== '' ? <h1 class="title is-3 is-size-4-mobile">
                         {index ? <a class="link-muted" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
                     </h1> : null}
+                    {/* Authors */}
+                    {<ArticleMedia
+                        authors={page.authors}
+                        whoami={page.whoami}/>}
                     {/* Tags */}
                     {!index && page.tags && page.tags.length ? <div class="article-tags is-size-7 mb-4">
                         <span class="mr-2">#</span>

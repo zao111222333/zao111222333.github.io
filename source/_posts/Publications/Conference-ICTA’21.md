@@ -6,9 +6,9 @@ title: "A Fast Method for Steady-State Memristor Crossbar Array Circuit Simulati
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 tags: [rram,eda]
-authors: [R. Xie,M. Song,J. Zhou,J. Mei,Q. Chen]
+authors: [R. Xie,M. Song,J. Zhou,J. Mei and Q. Chen]
 whoami: J. Zhou
-categories: [Publications,Conference,ICTA,'21']
+categories: [Publications,Conference,ICTA'21]
 isNews: true
 ---
 ***
