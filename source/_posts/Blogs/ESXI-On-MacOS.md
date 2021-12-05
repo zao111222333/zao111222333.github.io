@@ -3,7 +3,7 @@ date: 2021-04-7 00:40:12
 title: "Install-ESXI-On-MacOS"
 mathjax: false
 toc: true
-categories: [Blogs]
+categories: [Homelab]
 ---
 ***
 

@@ -3,7 +3,7 @@ date: 2021-05-15 00:40:12
 title: "CPU Benchmark"
 mathjax: false
 toc: true
-categories: [Blogs, sth. cool]
+categories: [Benchmark]
 ---
 ***
 

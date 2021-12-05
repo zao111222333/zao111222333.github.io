@@ -6,7 +6,7 @@ toc: true
 tags: [docker,env,spinalhdl]
 cover: ../../images/Blogs/SpinalHDL-Online/SpinalHDL-Online-Demo.png
 thumbnail: ../../images/Blogs/SpinalHDL-Online/pwa-icon-2560.png
-categories: [Blogs, SpinalHDL]
+categories: [SpinalHDL]
 ---
 ***
 Github: <a href="https://github.com/zao111222333/spinalhdl-online" target="_blank">https://github.com/zao111222333/spinalhdl-online</a>

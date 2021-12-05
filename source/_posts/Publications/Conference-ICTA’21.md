@@ -8,7 +8,7 @@ toc: true
 tags: [rram,eda]
 authors: [R. Xie,M. Song,J. Zhou,J. Mei and Q. Chen]
 whoami: J. Zhou
-categories: [Publications,Conference,ICTA'21]
+categories: [Conference,ICTA'21]
 isNews: true
 ---
 ***

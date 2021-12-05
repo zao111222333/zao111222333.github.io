@@ -5,7 +5,7 @@ cover: ../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Co
 thumbnail: ../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg
 mathjax: false
 toc: true
-categories: [Blogs,1-d Conv]
+categories: [1D-Conv]
 ---
 ***
 ## Summary

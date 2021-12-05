@@ -5,7 +5,7 @@ title: "A Precision-Scalable Energy-Efficient Bit-Split-and-Combination Vector S
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 tags: [nas,mutli-precision,reconfigurable-computing,accelerator]
-categories: [Publications,Conference,DATE'22]
+categories: [Conference,DATE'22]
 authors: [K. Li,J. Zhou,Y. Wang,J. Luo,Z. Yang,S. Yang,W. Mao,M. Huang and H. Yu]
 whoami: J. Zhou
 isNews: true

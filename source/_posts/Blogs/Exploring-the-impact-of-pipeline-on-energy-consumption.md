@@ -5,7 +5,7 @@ cover: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption
 thumbnail: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
 mathjax: true
 toc: true
-categories: [Blogs,pipeline]
+categories: [Pipeline]
 ---
 
 ## Summary

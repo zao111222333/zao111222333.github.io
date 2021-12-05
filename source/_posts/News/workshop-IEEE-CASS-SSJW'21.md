@@ -5,7 +5,6 @@ title: "workshop/IEEE-CASS-SSJW'21"
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 # tags: [fpga,accelerator]
-categories: [News,workshop,IEEE-CASS-SSJW]
 isNews: true
 ---
 ***

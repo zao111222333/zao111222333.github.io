@@ -4,8 +4,9 @@ mv source/_posts/About.md source/_posts/About.md.bak
 mv source/_posts/MyCV.md source/_posts/MyCV.md.bak
 hexo g
 mv public public_root
-mv public_root/categories public_root/Categories
-# rm -rf public_root/Archive
+mv public_root/Categories/index.html public_root/Categories-index.html
+rm -rf public_root/Categories
+mkdir public_root/Categories
 mv source/_posts source/_posts_bak
 # for News
 Bulid_Archive(){
@@ -14,18 +15,13 @@ Bulid_Archive(){
     cp -r source/_posts_bak/$Dir source/_posts/$Dir
     hexo g
     mv public/categories public/Categories
-    # rm -rf public_root/$Dir
     mv public/Archive/index.html public_root/$Dir/index.html
     # Mac
     sed -i "" "s/Archives -/${Dir} -/g" public_root/$Dir/index.html
     # Linux
     # sed -i "s/Archives/${Dir}/g" public_root/$Dir/index.html
     cp -r public/Archive/* public_root/$Dir/
-    rm -rf public_root/Categories/$Dir/
-    cp -r public/Categories/$Dir/ public_root/Categories/$Dir/
-    rm -rf public_root/Categories/$Dir/index.html
-    cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
-    cp -r public/Archive/* public_root/Categories/$Dir/
+    mv public/Categories/* public_root/Categories/
     rm -rf public
     rm -rf source/_posts
 }
@@ -43,19 +39,8 @@ Bulid_Categories(){
     sed -i "" "s/\<title\>Junzhuo\<\/title\>/\<title\>${Dir} - Junzhuo\<\/title\>/g" public_root/$Dir/index.html
     # Linux
     # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
-    # cp -r public/Categories/$Dir/* public_root/$Dir/
     cp -r public/$Dir/* public_root/$Dir/
-    rm -rf public_root/Categories/$Dir/
-    cp -r public/Categories/$Dir/ public_root/Categories/$Dir/
-    rm -rf public_root/Categories/$Dir/index.html
-    cp -r public/Categories/* public_root/Categories/$Dir/
-    cp public_root/$Dir/index.html public_root/Categories/$Dir/index.html
-    for file in $(find public_root/$Dir -name '*html') then;
-    do 
-    # sed -i "" "s/\"\/page/\".\/page/g" $file
-    # sed -i "" "s/<a href=\"\/\">Previous<\/a>/<a href=\".\/\">Previous<\/a>/g" $file
-    echo $file
-    done
+    mv public/Categories/* public_root/Categories/
     rm -rf public
     rm -rf source/_posts
 }
@@ -77,6 +62,7 @@ rm -rf source/_posts
 # CV
 sed -i "" "s/<title>/<title>CV - /g" public_root/MyCV/index.html
 sed -i "" "s/is-10/is-12/g" public_root/MyCV/index.html
+mv public_root/Categories-index.html public_root/Categories/index.html
 mv public_root public
 
 
@@ -96,8 +82,8 @@ python3 fetch.py News
 python3 fetch.py Researches
 python3 fetch.py Projects
 python3 fetch.py Publications
+# Correct
 python3 correct-is-active.py
 
-# cat mytimeline.css >> public/css/default.css
 # scp -r -i ~/.ssh/vps-HK ~/Desktop/junzhuo.me/public admin@47.243.126.173:/junzhuo.me/
 node publish.js

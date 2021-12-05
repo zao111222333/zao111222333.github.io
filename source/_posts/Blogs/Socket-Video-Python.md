@@ -4,7 +4,7 @@ title: "Video flow via SOCKET by Python"
 mathjax: false
 toc: true
 tags: [socket,video]
-categories: [Blogs, Network]
+categories: [Network]
 ---
 ***
 

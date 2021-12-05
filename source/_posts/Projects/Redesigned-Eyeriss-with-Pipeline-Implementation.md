@@ -4,7 +4,7 @@ cover: ../../images/Projects/Redesigned-Eyeriss-with-Pipeline-Implementation/PEP
 thumbnail: ../../images/Projects/Redesigned-Eyeriss-with-Pipeline-Implementation/PE2.svg
 toc: true
 tags: [Accelerator]
-categories: [Projects,Pipelined-Eyeriss]
+categories: [Pipelined-Eyeriss]
 ---
 
 ## Summary

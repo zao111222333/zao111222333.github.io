@@ -5,7 +5,7 @@ mathjax: false
 toc: true
 tags: [technology,cleanroom,sustech]
 cover: ../../images/Blogs/Photolithography/Wafer.jpg
-categories: [Blogs, Technology]
+categories: [Technology]
 ---
 ***
 

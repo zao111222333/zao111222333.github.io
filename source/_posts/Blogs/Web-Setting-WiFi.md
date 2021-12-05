@@ -4,7 +4,7 @@ title: "Web-Setting-WiFi"
 mathjax: false
 toc: true
 tags: [fpga,web,wifi]
-categories: [Blogs, Network]
+categories: [Network]
 ---
 ***
 

@@ -4,7 +4,7 @@ cover: ../../images/Projects/Muti-Pipeline-Design-of-Systolic-Array/PE-Array-Pip
 thumbnail: ../../images/Projects/Muti-Pipeline-Design-of-Systolic-Array/PE-Array-Pipeline_2.svg
 toc: true
 tags: Accelerator
-categories: [Projects,Pipelined-TPU]
+categories: [Pipelined-TPU]
 ---
 ***
 ## Summary

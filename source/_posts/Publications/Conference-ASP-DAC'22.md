@@ -5,7 +5,7 @@ title: "An Energy-Efﬁcient Bit-Split-and-Combination Systolic Accelerator for 
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 tags: [nas,mutli-precision,reconfigurable-computing,accelerator,fpga]
-categories: [Publications,Conference,ASP-DAC'22]
+categories: [Conference,ASP-DAC'22]
 authors: [L. Dai, Q. Cheng, Y. Wang, G. Huang, J. Zhou, K. Li, W. Mao and H. Yu]
 whoami: J. Zhou
 

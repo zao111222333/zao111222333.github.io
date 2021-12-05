@@ -22,6 +22,8 @@ def correct_file(file, type):
     replace(file, "<a class=\"navbar-item is-active\" href=\"/Archive\">", "<a class=\"navbar-item\" href=\"/Archive\">")
     replace(file, "<a class=\"navbar-item\" href=\"/"+type+"\">", "<a class=\"navbar-item is-active\" href=\"/"+type+"\">")
     replace(file, "<title>Category: ", "<title>"+type+"-")
+    replace(file, "<h3 class=\"menu-label\">Categories", "<h3 class=\"menu-label\">"+type)
+    
 
 import os
 
@@ -41,11 +43,10 @@ def correct_all_files(type):
     for file in file_list:
         if os.path.splitext(file)[-1]=='.html':
             correct_file(file,type)
-    file_list = list_all_files('./public/Categories/'+type)
-    for file in file_list:
-        if os.path.splitext(file)[-1]=='.html':
-            correct_file(file,type)
-    
+    # file_list = list_all_files('./public/Categories/'+type)
+    # for file in file_list:
+    #     if os.path.splitext(file)[-1]=='.html':
+    #         correct_file(file,type)
 
 
 
@@ -55,13 +56,4 @@ correct_all_files("Projects")
 correct_all_files("Blogs")
 correct_all_files("Publications")
 
-type="Archive"
-file_list = list_all_files('./public/'+type)
-for file in file_list:
-    if os.path.splitext(file)[-1]=='.html':
-        correct_file(file,type)
-# is-active
-
-# <a class="navbar-item" href="/Projects">
-
-# <a class="navbar-item is-active" href="/Archive">
+replace('./public/index.html', "<h3 class=\"menu-label\">Catalogue", "<h3 class=\"menu-label\">About Me")
