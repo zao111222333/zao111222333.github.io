@@ -4,9 +4,8 @@ mv source/_posts/About.md source/_posts/About.md.bak
 mv source/_posts/MyCV.md source/_posts/MyCV.md.bak
 hexo g
 mv public public_root
-mv public_root/Categories/index.html public_root/Categories-index.html
 rm -rf public_root/Categories
-mkdir public_root/Categories
+rm -rf public_root/tags
 mv source/_posts source/_posts_bak
 # for News
 Bulid_Archive(){
@@ -15,13 +14,21 @@ Bulid_Archive(){
     cp -r source/_posts_bak/$Dir source/_posts/$Dir
     hexo g
     mv public/categories public/Categories
+    mv public/Tags public/Tags
     mv public/Archive/index.html public_root/$Dir/index.html
     # Mac
     sed -i "" "s/Archives -/${Dir} -/g" public_root/$Dir/index.html
     # Linux
     # sed -i "s/Archives/${Dir}/g" public_root/$Dir/index.html
     cp -r public/Archive/* public_root/$Dir/
-    mv public/Categories/* public_root/Categories/
+    mv public/Categories public_root/$Dir/Categories
+    mv public/Tags public_root/$Dir/Tags
+    for file in $(find public_root/$Dir -name '*html') then;
+    do 
+    echo $file
+    sed -i "" "s/href=\"\/Categories/href=\"\/${Dir}\/Categories/g" $file
+    sed -i "" "s/href=\"\/Tags/href=\"\/${Dir}\/Tags/g" $file
+    done
     rm -rf public
     rm -rf source/_posts
 }
@@ -30,9 +37,8 @@ Bulid_Categories(){
     mkdir source/_posts
     cp -r source/_posts_bak/$Dir source/_posts/$Dir
     hexo g
-    # rm -rf public_root/$Dir
     mv public/categories public/Categories
-    # mv public/Categories/$Dir/index.html public_root/$Dir/index.html
+    mv public/Tags public/Tags
     mv public/index.html public_root/$Dir/index.html
     mv public/page public_root/$Dir/page
     # Mac
@@ -40,7 +46,14 @@ Bulid_Categories(){
     # Linux
     # sed -i "s/Categories/${Dir}/g" public_root/$Dir/index.html
     cp -r public/$Dir/* public_root/$Dir/
-    mv public/Categories/* public_root/Categories/
+    mv public/Categories public_root/$Dir/Categories
+    mv public/Tags public_root/$Dir/Tags
+    for file in $(find public_root/$Dir -name '*html') then;
+    do 
+    echo $file
+    sed -i "" "s/href=\"\/Categories/href=\"\/${Dir}\/Categories/g" $file
+    sed -i "" "s/href=\"\/Tags/href=\"\/${Dir}\/Tags/g" $file
+    done
     rm -rf public
     rm -rf source/_posts
 }
@@ -62,7 +75,6 @@ rm -rf source/_posts
 # CV
 sed -i "" "s/<title>/<title>CV - /g" public_root/MyCV/index.html
 sed -i "" "s/is-10/is-12/g" public_root/MyCV/index.html
-mv public_root/Categories-index.html public_root/Categories/index.html
 mv public_root public
 
 

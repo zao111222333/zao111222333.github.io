@@ -5,6 +5,7 @@ const Donates = require('./donates');
 const Comment = require('./comment');
 const ArticleLicensing = require('hexo-component-inferno/lib/view/misc/article_licensing');
 const ArticleMedia = require('hexo-component-inferno/lib/view/common/post_authors');
+const GetMathjax = require('hexo-component-inferno/lib/view/common/GetMathjax');
 /**
  * Get the word count of text.
  */
@@ -83,6 +84,10 @@ module.exports = class extends Component {
                     {page.title !== '' ? <h1 class="title is-3 is-size-4-mobile">
                         {index ? <a class="link-muted" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
                     </h1> : null}
+                    {/* mathjax */}
+                    {<GetMathjax
+                        mathjax={page.mathjax}
+                    />}
                     {/* Authors */}
                     {<ArticleMedia
                         authors={page.authors}

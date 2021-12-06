@@ -6,8 +6,9 @@ thumbnail: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consump
 mathjax: true
 toc: true
 categories: [Pipeline]
----
 
+---
+<script type="text/x-mathjax-config">MathJax.Hub.Config({'HTML-CSS': {matchFontHeight: false},SVG: {matchFontHeight: false},CommonHTML: {matchFontHeight: false},tex2jax: {inlineMath: [['$','$'],['\\(','\\)']]}});</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"About Me","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});});</script>
 ## Summary
 
 [IMG_DIR]:../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation

@@ -8,7 +8,7 @@ widgets:
         # Author title
         author_title: HaoYu lab, SUSTech
         # Author's current location
-        location: 
+        location: HaoYu lab, SUSTech
         # URL or path to the avatar image
         avatar: /img/me.png
         # Whether show the rounded avatar image
