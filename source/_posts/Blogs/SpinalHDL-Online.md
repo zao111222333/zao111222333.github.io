@@ -5,6 +5,7 @@ mathjax: false
 toc: true
 tags: [docker,env,spinalhdl]
 cover: ../../images/Blogs/SpinalHDL-Online/SpinalHDL-Online-Demo.png
+videocover: ../../images/Blogs/SpinalHDL-Online/DEMO.mp4
 thumbnail: ../../images/Blogs/SpinalHDL-Online/pwa-icon-2560.png
 categories: [SpinalHDL]
 ---
@@ -14,7 +15,7 @@ Github: <a href="https://github.com/zao111222333/spinalhdl-online" target="_blan
 Dockhub: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target="_blank">https://hub.docker.com/r/zao111222333/spinalhdl-online</a>
 
 ## Demo
-<a href="https://spinalhdl-online.junzhuo.me" target="_blank">https://spinalhdl-online.junzhuo.me</a> with `PASSWORD=123456`.
+<a href="https://spinalhdl-online.junzhuo.me/?folder=/SpinalHDL/SpinalTemplateSbt" target="_blank">https://spinalhdl-online.junzhuo.me</a> with `PASSWORD=123456`.
 <!-- more -->
 Run these two lines in TERMINAL: 
 ```shell
@@ -38,7 +39,6 @@ And the output files (RTL, Waveform) will located at `SpinalTemplateSbt/simWorks
 | [Verilator](https://www.veripool.org/verilator/) | 4.010 |
 | [OpenSSH](https://www.openssh.com/) | 7.9p1 |
 | [Code Server](https://github.com/cdr/code-server) | 3.12.0 |
-
 
 ***
 
@@ -90,7 +90,7 @@ Modify the `Highlight-Configures` according to your situation.
 | [Scala (Metals)](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)| 1.10.10 | Metals extension for Visual Studio Code. |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 0.2.1 | A customizable extension for colorizing matching brackets. |
 | [Verilog-HDL](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL) | 1.5.0 | Verilog-HDL, SystemVerilog and Bluespec SystemVerilog support for VS Code with Syntax Highlighting, Snippets, Linting and much more! |
-
+| [WaveTrace](https://marketplace.visualstudio.com/items?itemName=wavetrace.wavetrace) | 1.1.2 | Interactive VCD waveform viewer for FPGA/RTL developers |
 
 ***
 

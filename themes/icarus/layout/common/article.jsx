@@ -27,12 +27,22 @@ module.exports = class extends Component {
         const indexLaunguage = config.language || 'en';
         const language = page.lang || page.language || config.language || 'en';
         const cover = page.cover ? url_for(page.cover) : null;
+        const videocover = page.videocover ? url_for(page.videocover) : null;
 
         return <Fragment>
             {/* Main content */}
             <div class="card">
                 {/* Thumbnail */}
-                {cover ? <div class="card-image">
+                {videocover ? <div class="card-image">
+                    {index ? <a href={url_for(page.link || page.path)} class="video">
+                        <video onloadstart="this.volume=0" controls='controls' width='100%' height='100%' autoplay="autoplay" loop src={videocover} type="video/mp4">
+                        </video>
+                    </a> : <span class="video">
+                        <video onloadstart="this.volume=0" controls='controls' width='100%' height='100%' autoplay="autoplay" loop src={videocover} type="video/mp4">
+                        </video>
+                    </span>}
+                    </div> 
+                    : cover ? <div class="card-image">
                     {index ? <a href={url_for(page.link || page.path)} class="image is-7by3">
                         <img class="fill" src={cover} alt={page.title || cover} />
                     </a> : <span class="image is-7by3">
