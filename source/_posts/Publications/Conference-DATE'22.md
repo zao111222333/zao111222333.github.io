@@ -8,7 +8,6 @@ tags: [nas,mutli-precision,reconfigurable-computing,accelerator]
 categories: [Conference,DATE'22]
 authors: [K. Li,J. Zhou,Y. Wang,J. Luo,Z. Yang,S. Yang,W. Mao,M. Huang and H. Yu]
 whoami: J. Zhou
-isNews: true
 ---
 ***
 ## Abstract

@@ -5,7 +5,6 @@ thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&
 toc: true
 tags: [fpga,riscv]
 categories: [Parallel-Demosaicing]
-isNews: true
 ---
 ***
 ## Summary

@@ -88,6 +88,11 @@ for file in $(find public/ -name '*\ *') then;
 do 
 rm -rf $file" "*
 done
+for file in $(find public/News/Categories -name '*html') then;
+do 
+echo $file
+sed -i "" "s/refresh\" content=\"0/refresh\" content=\"-1/g" $file
+done
 
 # Timeline
 python3 fetch.py News

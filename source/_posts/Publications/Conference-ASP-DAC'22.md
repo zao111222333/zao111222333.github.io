@@ -8,8 +8,6 @@ tags: [nas,mutli-precision,reconfigurable-computing,accelerator,fpga]
 categories: [Conference,ASP-DAC'22]
 authors: [L. Dai, Q. Cheng, Y. Wang, G. Huang, J. Zhou, K. Li, W. Mao and H. Yu]
 whoami: J. Zhou
-
-isNews: true
 ---
 ***
 ## Abstract

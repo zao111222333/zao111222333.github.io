@@ -102,6 +102,8 @@ module.exports = class extends Component {
                     {<ArticleMedia
                         authors={page.authors}
                         whoami={page.whoami}/>}
+                    {/* Description */}
+                    {page.description ? <p class="description">{page.description}</p>: null}
                     {/* Tags */}
                     {!index && page.tags && page.tags.length ? <div class="article-tags is-size-7 mb-4">
                         <span class="mr-2">#</span>
