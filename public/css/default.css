@@ -11678,6 +11678,9 @@ div.timeline-title a:visited {
 .isMe {
   font-weight: bold;
 }
+.title {
+  font-weight: bold;
+}
 .formula {
   width: 100%;
   overflow-x: auto;
