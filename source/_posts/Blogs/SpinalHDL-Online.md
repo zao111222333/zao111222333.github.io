@@ -11,13 +11,11 @@ categories: [SpinalHDL]
 ---
 ---
 
-Github: `<a href="https://github.com/zao111222333/spinalhdl-online" target="_blank">`https://github.com/zao111222333/spinalhdl-online`</a>`
+Github: <a href="https://github.com/zao111222333/spinalhdl-online" target="_blank">https://github.com/zao111222333/spinalhdl-online </a>
 
-Dockhub: `<a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target="_blank">`https://hub.docker.com/r/zao111222333/spinalhdl-online`</a>`
+Dockhub: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" target="_blank">https://hub.docker.com/r/zao111222333/spinalhdl-online </a>
 
-## Demo
-
-`<a href="https://spinalhdl-online.junzhuo.me/?folder=/SpinalHDL/SpinalTemplateSbt" target="_blank">`https://spinalhdl-online.junzhuo.me`</a>` with `PASSWORD=123456`.
+Demo: <a href="https://spinalhdl-online.junzhuo.me/?folder=/SpinalHDL/SpinalTemplateSbt" target="_blank">https://spinalhdl-online.junzhuo.me </a> with `PASSWORD=123456`.
 
 <!-- more -->
 
