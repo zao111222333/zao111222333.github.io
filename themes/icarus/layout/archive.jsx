@@ -7,6 +7,11 @@ module.exports = class extends Component {
     render() {
         const { config, page, helper } = this.props;
         const { url_for, __, date_xml, date } = helper;
+        function reformatDateString(s) {
+            var b = s.split(/\D/);
+            var months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
+            return months[b[1]-1] + '\n' + b[2];
+          }
 
         const language = page.lang || page.language || config.language;
 
@@ -29,7 +34,8 @@ module.exports = class extends Component {
                             return <ArticleMedia
                                 url={url_for(post.link || post.path)}
                                 title={post.title}
-                                date={date(post.date)}
+                                // date={date(post.date)}
+                                date={reformatDateString(date_xml(post.date))}
                                 dateXml={date_xml(post.date)}
                                 categories={categories}
                                 authors={post.authors}
