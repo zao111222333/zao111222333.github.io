@@ -8,10 +8,13 @@ toc: true
 tags: [rram,eda]
 authors: [R. Xie,M. Song,J. Zhou,J. Mei and Q. Chen]
 whoami: J. Zhou
+timelineNoDate: true
 categories: [Conference,ICTA'21]
 ---
-***
+---
+
 ### Abstract
+
 <p style='text-align: justify;'>
 In this work we propose an effective preconditioning technique to accelerate the steady-state simulation of large-scale memristor crossbar arrays (MCAs). We exploit the structural regularity of MCAs to develop a specially-crafted preconditioner that can be efﬁciently evaluated utilizing tensor products and block matrix inversion. Numerical experiments demonstrate the efﬁcacy of the proposed technique compared to mainstream preconditioners.
 </p>
