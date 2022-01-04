@@ -4,6 +4,7 @@ cover: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC
 thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 timelineNoDate: true
+date: 2020-12-15 00:00:12
 tags: [fpga,riscv]
 categories: [Parallel-Demosaicing]
 ---

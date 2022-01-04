@@ -3,6 +3,7 @@ title: "Redesigned Eyeriss with Pipeline Implementation"
 cover: ../../images/Projects/Redesigned-Eyeriss-with-Pipeline-Implementation/PEPipeline.svg
 thumbnail: ../../images/Projects/Redesigned-Eyeriss-with-Pipeline-Implementation/PE2.svg
 toc: true
+date: 2020-12-12 00:00:12
 timelineNoDate: true
 tags: [Accelerator]
 categories: [Pipelined-Eyeriss]

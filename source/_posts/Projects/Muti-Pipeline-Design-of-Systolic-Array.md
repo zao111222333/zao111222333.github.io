@@ -3,6 +3,7 @@ title: "Muti-Pipeline Design of Systolic Array"
 cover: ../../images/Projects/Muti-Pipeline-Design-of-Systolic-Array/PE-Array-Pipeline_1.svg
 thumbnail: ../../images/Projects/Muti-Pipeline-Design-of-Systolic-Array/PE-Array-Pipeline_2.svg
 toc: true
+date: 2021-03-16 00:00:12
 timelineNoDate: true
 tags: Accelerator
 categories: [Pipelined-TPU]
