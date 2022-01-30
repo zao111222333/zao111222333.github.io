@@ -1,11 +1,12 @@
 ---
-date: 2021-11-11 00:00:12
+date: 2022-03-11 00:00:12
+# date: 2021-11-11 00:00:12
 title: "A Precision-Scalable Energy-Efficient Bit-Split-and-Combination Vector Systolic Accelerator for NAS-Optimized DNNs on Edge"
 # cover: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/half-flow.svg
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 tags: [nas,mutli-precision,reconfigurable-computing,accelerator]
-categories: [Conference,DATE'22]
+categories: [Conference,DATE]
 authors: [K. Li,J. Zhou,Y. Wang,J. Luo,Z. Yang,S. Yang,W. Mao,M. Huang and H. Yu]
 whoami: J. Zhou
 timelineNoDate: true

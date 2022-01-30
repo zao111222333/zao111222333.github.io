@@ -10,7 +10,7 @@ module.exports = class extends Component {
         function reformatDateString(s) {
             var b = s.split(/\D/);
             var months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
-            return months[b[1]-1] + '\n' + b[2];
+            return [months[b[1]-1], b[2]];
           }
 
         const language = page.lang || page.language || config.language;

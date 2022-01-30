@@ -9,7 +9,7 @@ tags: [rram,eda]
 authors: [R. Xie,M. Song,J. Zhou,J. Mei and Q. Chen]
 whoami: J. Zhou
 timelineNoDate: true
-categories: [Conference,ICTA'21]
+categories: [Conference,ICTA]
 ---
 ---
 

@@ -1,11 +1,12 @@
 ---
-date: 2021-09-12 00:00:12
+date: 2022-01-12 00:00:12
+# date: 2021-09-12 00:00:12
 title: "An Energy-Efﬁcient Bit-Split-and-Combination Systolic Accelerator for NAS-Based Multi-Precision Convolution Neural Networks"
 # cover: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/half-flow.svg
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 tags: [nas,mutli-precision,reconfigurable-computing,accelerator,fpga]
-categories: [Conference,ASP-DAC'22]
+categories: [Conference,ASP-DAC]
 authors: [L. Dai, Q. Cheng, Y. Wang, G. Huang, J. Zhou, K. Li, W. Mao and H. Yu]
 whoami: J. Zhou
 timelineNoDate: true

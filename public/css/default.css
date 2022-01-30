@@ -11681,6 +11681,15 @@ div.timeline-title a:visited {
 .title {
   font-weight: bold;
 }
+.timeline-flex {
+  display: flex;
+}
+.timeline-date {
+  width: 45px;
+  margin: 0px;
+  padding: 0px;
+  flex-shrink: 0;
+}
 .formula {
   width: 100%;
   overflow-x: auto;

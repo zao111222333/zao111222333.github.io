@@ -96,7 +96,7 @@ TimelineNews
 TimelinePublications
 
 ***
-# Patents
+<!-- # Patents
 
 + **CN202110178992.7**
 A Fixed-Point Multiply-Accumulate Unit and its Methodology for Multi-Precision Neural Networks Computation
@@ -104,9 +104,9 @@ Xianglong Wang, Yuhang Wang, **Junzhuo Zhou**, Gang Shi, Kai Li, Wei Mao, Fengwe
 
 + **CN202110988635.7**
 A Computing-In-Memory Architecture Systolic Array for Multi-Precision Neural Networks Computation
-Dingbang Liu, Haoxiang Zhou, Yuliang Han, **Junzhuo Zhou**, Gengbin Huang, Changhai Man, Ao Shen, Wei Mao, Hao Yu
+Dingbang Liu, Haoxiang Zhou, Yuliang Han, **Junzhuo Zhou**, Gengbin Huang, Changhai Man, Ao Shen, Wei Mao, Hao Yu -->
 
-***
+<!-- *** -->
 # Skills
 
 **Languages** 
