@@ -101,6 +101,8 @@ module.exports = class extends Component {
                     {/* Authors */}
                     {<ArticleMedia
                         authors={page.authors}
+                        conference={page.conference}
+                        materials={page.materials}
                         whoami={page.whoami}/>}
                     {/* Description */}
                     {page.description ? <p class="description">{page.description}</p>: null}

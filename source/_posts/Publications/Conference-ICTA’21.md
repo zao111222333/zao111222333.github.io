@@ -6,10 +6,23 @@ title: "A Fast Method for Steady-State Memristor Crossbar Array Circuit Simulati
 # thumbnail: ../../images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 toc: true
 tags: [rram,eda]
-authors: [R. Xie,M. Song,J. Zhou,J. Mei and Q. Chen]
+authors: [R. Xie,M. Song,J. Zhou,J. Mei, Q. Chen]
 whoami: J. Zhou
 timelineNoDate: true
+conference: IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA)
 categories: [Conference,ICTA]
+materials: [[Paper,https://arxiv.org/pdf/2109.07929.pdf],
+            [Sildes,/pdf/SILDES_ICTA2021.pdf],
+            [Video,https://www.bilibili.com/video/BV1fZ4y197iW?spm_id_from=333.999.0.0]
+            ]
+# materials: [[Paper,https://arxiv.org/pdf/2109.07929.pdf],
+#             [Sildes,/pdf/SILDES_ICTA2021.pdf],
+#             [Poster,www],
+#             [Intro,www],
+#             [Talk,www],
+#             [Video,https://www.bilibili.com/video/BV1fZ4y197iW?spm_id_from=333.999.0.0],
+#             [Code,www],
+#             [Page,www]]
 ---
 ---
 
@@ -18,5 +31,3 @@ categories: [Conference,ICTA]
 <p style='text-align: justify;'>
 In this work we propose an effective preconditioning technique to accelerate the steady-state simulation of large-scale memristor crossbar arrays (MCAs). We exploit the structural regularity of MCAs to develop a specially-crafted preconditioner that can be efﬁciently evaluated utilizing tensor products and block matrix inversion. Numerical experiments demonstrate the efﬁcacy of the proposed technique compared to mainstream preconditioners.
 </p>
-
-[PDF](https://arxiv.org/pdf/2109.07929.pdf)
