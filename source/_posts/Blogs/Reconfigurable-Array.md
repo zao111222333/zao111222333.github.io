@@ -4,7 +4,7 @@ title: "Reconfigurable Array"
 mathjax: false
 toc: true
 # tags: [technology,cleanroom,sustech]
-# cover: ../../images/Blogs/Photolithography/Wafer.jpg
+# cover: /images/Blogs/Photolithography/Wafer.jpg
 # categories: [Technology]
 ---
 

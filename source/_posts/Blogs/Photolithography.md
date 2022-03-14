@@ -4,7 +4,7 @@ title: "Photolithography: One Lesson of SME308 (SUSTech)"
 mathjax: false
 toc: true
 tags: [technology,cleanroom,sustech]
-cover: ../../images/Blogs/Photolithography/Wafer.jpg
+cover: /images/Blogs/Photolithography/Wafer.jpg
 categories: [Technology]
 ---
 ***
@@ -15,20 +15,20 @@ Bilibili: <a href="https://hub.docker.com/r/zao111222333/spinalhdl-online" targe
 
 <!-- more -->
 ## View
-<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/View.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
+<video onloadstart="this.volume=0" src='/images/Blogs/Photolithography/View.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
 
 ## 光刻胶
-<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/Photolithography_0.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
+<video onloadstart="this.volume=0" src='/images/Blogs/Photolithography/Photolithography_0.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
 ## 光刻
 ### 1
-<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/Photolithography_1.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
+<video onloadstart="this.volume=0" src='/images/Blogs/Photolithography/Photolithography_1.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 
 ### 2
-<video onloadstart="this.volume=0" src='../../images/Blogs/Photolithography/Photolithography_2.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
+<video onloadstart="this.volume=0" src='/images/Blogs/Photolithography/Photolithography_2.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' autoplay="autoplay" loop>
 </video>
 

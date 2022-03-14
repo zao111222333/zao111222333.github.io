@@ -11683,6 +11683,9 @@ div.timeline-title a:visited {
 }
 .timeline-flex {
   display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .timeline-date {
   width: 45px;

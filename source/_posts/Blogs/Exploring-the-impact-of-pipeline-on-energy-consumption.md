@@ -1,8 +1,8 @@
 ---
 date: 2021-09-14 00:40:12
 title: "Exploring the impact of pipeline on energy consumption"
-cover: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
-thumbnail: ../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
+cover: /images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
+thumbnail: /images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg
 mathjax: true
 toc: true
 categories: [Pipeline]
@@ -17,7 +17,6 @@ categories: [Pipeline]
 </style>
 ## Summary
 
-[IMG_DIR]:../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation
 
 <article class="message message-immersive is-primary">
   <div class="message-body">
@@ -34,7 +33,7 @@ categories: [Pipeline]
 ***
 ### Background
 引入k级pipeline以后(使用k-1个Reg.):
-![](../../images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg)
+![](/images/Blogs/Exploring-the-impact-of-pipeline-on-energy-consumption/IMG_6078E476484C-1.jpeg)
 
 
 ### Some Symbol
@@ -95,7 +94,7 @@ $</div>
 
 ***
 ## Analysis: Multi-States Module
-![](../../images/Projects/Muti-Pipeline-Design-of-Systolic-Array/Systolic-Array.svg)
+![](/images/Projects/Muti-Pipeline-Design-of-Systolic-Array/Systolic-Array.svg)
 
 ### Some Symbol
 

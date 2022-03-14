@@ -65,3 +65,8 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+# pdf:
+#   enable: true
+#   height: 1000px
+#   width: 1000px
+# post_asset_folder: true

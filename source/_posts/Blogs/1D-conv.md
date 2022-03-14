@@ -1,17 +1,14 @@
 ---
 date: 2021-09-7 00:40:12
 title: "Exploring between two type 1-d conv & Concatenation"
-cover: ../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg
-thumbnail: ../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg
+cover: /images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg
+thumbnail: /images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg
 mathjax: false
 toc: true
 categories: [1D-Conv]
 ---
 ***
 ## Summary
-
-
-[IMG_DIR]:../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation
 
 <article class="message message-immersive is-primary">
   <div class="message-body">
@@ -24,21 +21,21 @@ categories: [1D-Conv]
 ***
 ## Background
 
-![](../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/1-D.svg)
+![](/images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/1-D.svg)
 
 
 ***
 ## Main Idea
 ### 1-D串行
 
-![](../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/1-D串行.svg)
+![](/images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/1-D串行.svg)
 
 ***
 ### 1-D并行
-![](../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/1-D并行.svg)
+![](/images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/1-D并行.svg)
 
 ### 1-D拼接
-![](../../images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg)
+![](/images/Blogs/Exploring-between-two-type-1-d-conv-&-Concatenation/Concatenation.svg)
 
 
 ***

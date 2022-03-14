@@ -1,7 +1,7 @@
 ---
 title: 
-# thumbnail: ../../images/About/avatar.png
-cover: ../../images/About/avatar.png
+# thumbnail: /images/About/avatar.png
+cover: /images/About/avatar.png
 top: true
 toc: true
 date: 2020-10-07 00:40:12
