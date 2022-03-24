@@ -4,7 +4,7 @@ title: "conference/DATE'22: An Essay was Accepeted"
 # cover: /images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/half-flow.svg
 # thumbnail: /images/Projects/A-Parallel-Optimization-Design-for-Demosaicing&RISC-V-CPU-on-FPGA/dema.svg
 description: An Energy-Efﬁcient Bit-Split-and-Combination Systolic Accelerator for NAS-Based Multi-Precision Convolution Neural Networks
-categories: [Publications]
+categories: [Conference]
 isNews: true
 ---
-<meta http-equiv="refresh" content="0;url= /Publications/Conference-ASP-DAC'22">
+<meta http-equiv="refresh" content="0;url= /Publications/ASP-DAC'22">
