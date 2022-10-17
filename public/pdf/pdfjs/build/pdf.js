@@ -10635,7 +10635,7 @@ class PopupElement {
     if (dateObject) {
       const modificationDate = document.createElement("span");
       modificationDate.className = "popupDate";
-      modificationDate.textContent = "1648464065230, ";
+      modificationDate.textContent = "1665874697138, ";
       modificationDate.dataset.l10nId = "annotation_date_string";
       modificationDate.dataset.l10nArgs = JSON.stringify({
         date: dateObject.toLocaleDateString(),
